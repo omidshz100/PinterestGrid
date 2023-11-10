@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		D94656832AFE360300F975D9 /* PinterestGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94656822AFE360300F975D9 /* PinterestGridApp.swift */; };
-		D94656852AFE360300F975D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94656842AFE360300F975D9 /* ContentView.swift */; };
 		D94656872AFE360400F975D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94656862AFE360400F975D9 /* Assets.xcassets */; };
 		D946568A2AFE360400F975D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D94656892AFE360400F975D9 /* Preview Assets.xcassets */; };
+		D946569B2AFE3A6E00F975D9 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946569A2AFE3A6E00F975D9 /* UIView+Extensions.swift */; };
+		D946569D2AFE3A8D00F975D9 /* CGSize+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946569C2AFE3A8D00F975D9 /* CGSize+Extensions.swift */; };
+		D946569F2AFE3AA300F975D9 /*  UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D946569E2AFE3AA300F975D9 /*  UIImage+Extensions.swift */; };
+		D94656A12AFE3ABC00F975D9 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94656A02AFE3ABC00F975D9 /* View+Extensions.swift */; };
+		D94656A42AFE3AF700F975D9 /* GridAnimationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94656A32AFE3AF700F975D9 /* GridAnimationModel.swift */; };
+		D94656A92AFE3B3A00F975D9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94656A82AFE3B3A00F975D9 /* Home.swift */; };
+		D94656AB2AFE3B5700F975D9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94656AA2AFE3B5700F975D9 /* CardView.swift */; };
+		D94656AD2AFE3B7000F975D9 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94656AC2AFE3B7000F975D9 /* DetailView.swift */; };
+		D94656B02AFE3BA400F975D9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94656AF2AFE3BA400F975D9 /* Item.swift */; };
+		D94656B22AFE3BB800F975D9 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94656B12AFE3BB800F975D9 /* PreferenceKeys.swift */; };
+		D94656B42AFE3C2500F975D9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94656B32AFE3C2500F975D9 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D946567F2AFE360300F975D9 /* PinterestGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinterestGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D94656822AFE360300F975D9 /* PinterestGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestGridApp.swift; sourceTree = "<group>"; };
-		D94656842AFE360300F975D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D94656862AFE360400F975D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D94656892AFE360400F975D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D946569A2AFE3A6E00F975D9 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		D946569C2AFE3A8D00F975D9 /* CGSize+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Extensions.swift"; sourceTree = "<group>"; };
+		D946569E2AFE3AA300F975D9 /*  UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		D94656A02AFE3ABC00F975D9 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		D94656A32AFE3AF700F975D9 /* GridAnimationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridAnimationModel.swift; sourceTree = "<group>"; };
+		D94656A82AFE3B3A00F975D9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D94656AA2AFE3B5700F975D9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		D94656AC2AFE3B7000F975D9 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		D94656AF2AFE3BA400F975D9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D94656B12AFE3BB800F975D9 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
+		D94656B32AFE3C2500F975D9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +71,12 @@
 		D94656812AFE360300F975D9 /* PinterestGrid */ = {
 			isa = PBXGroup;
 			children = (
+				D94656AE2AFE3B9600F975D9 /* Model */,
+				D94656A52AFE3B1A00F975D9 /* View */,
+				D94656A22AFE3AEA00F975D9 /* ViewModels */,
+				D94656992AFE3A5700F975D9 /* Helpers */,
 				D94656822AFE360300F975D9 /* PinterestGridApp.swift */,
-				D94656842AFE360300F975D9 /* ContentView.swift */,
+				D94656B32AFE3C2500F975D9 /* ContentView.swift */,
 				D94656862AFE360400F975D9 /* Assets.xcassets */,
 				D94656882AFE360400F975D9 /* Preview Content */,
 			);
@@ -65,6 +89,44 @@
 				D94656892AFE360400F975D9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D94656992AFE3A5700F975D9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D946569A2AFE3A6E00F975D9 /* UIView+Extensions.swift */,
+				D946569C2AFE3A8D00F975D9 /* CGSize+Extensions.swift */,
+				D946569E2AFE3AA300F975D9 /*  UIImage+Extensions.swift */,
+				D94656A02AFE3ABC00F975D9 /* View+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D94656A22AFE3AEA00F975D9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D94656A32AFE3AF700F975D9 /* GridAnimationModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D94656A52AFE3B1A00F975D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D94656A82AFE3B3A00F975D9 /* Home.swift */,
+				D94656AA2AFE3B5700F975D9 /* CardView.swift */,
+				D94656AC2AFE3B7000F975D9 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D94656AE2AFE3B9600F975D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D94656AF2AFE3BA400F975D9 /* Item.swift */,
+				D94656B12AFE3BB800F975D9 /* PreferenceKeys.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D94656852AFE360300F975D9 /* ContentView.swift in Sources */,
+				D946569B2AFE3A6E00F975D9 /* UIView+Extensions.swift in Sources */,
+				D94656AB2AFE3B5700F975D9 /* CardView.swift in Sources */,
+				D94656B42AFE3C2500F975D9 /* ContentView.swift in Sources */,
+				D94656AD2AFE3B7000F975D9 /* DetailView.swift in Sources */,
+				D946569D2AFE3A8D00F975D9 /* CGSize+Extensions.swift in Sources */,
+				D94656A12AFE3ABC00F975D9 /* View+Extensions.swift in Sources */,
+				D94656B02AFE3BA400F975D9 /* Item.swift in Sources */,
+				D946569F2AFE3AA300F975D9 /*  UIImage+Extensions.swift in Sources */,
 				D94656832AFE360300F975D9 /* PinterestGridApp.swift in Sources */,
+				D94656A92AFE3B3A00F975D9 /* Home.swift in Sources */,
+				D94656B22AFE3BB800F975D9 /* PreferenceKeys.swift in Sources */,
+				D94656A42AFE3AF700F975D9 /* GridAnimationModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
